@@ -1,4 +1,19 @@
 .promos {
-  height: 200px;
+  display: flex;
   width: 364px;
+}
+
+.promos>a>img {
+  padding: 1px 2px 1px 0;
+  width: 316px;
+}
+
+.footer_links {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.piped_right {
+  float: right;
+  border-right: 1px solid lightgray;
 }
