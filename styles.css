@@ -17,3 +17,10 @@
   float: right;
   border-right: 1px solid lightgray;
 }
+
+body {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  /*min-width: 800px !important;*/
+}
+
