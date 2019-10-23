@@ -43,3 +43,140 @@ body {
 #g-search label { display:block; margin-top:-2px; }
 #g-search .sp-label { margin-bottom:-2px; }
 #g-search .sp-label label { display:none; margin:0; }
+
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,abbr,article,aside,command,details,figcaption,figure,footer,header,hgroup,mark,meter,nav,output,progress,section,summary,time { margin: 0; padding: 0; }
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th,figcaption { font-size: 1em; font-weight: normal; font-style: normal; }
+fieldset,iframe { border: none; }
+caption,th { text-align: left; }
+table { border-collapse: collapse; border-spacing: 0; }
+article,aside,footer,header,hgroup,nav,section,figure,figcaption { display: block; }
+html { background-color:#fff; }
+
+img, .left, a,
+span,
+h1 a, h2 a, { behavior: url(/web/20140301004301im_/http://images.apple.com/global/scripts/lib/iepngfix.htc); }
+
+img { border: 0; }
+img.left { float: left; margin: 2px 20px 16px 0; }
+img.right { float: right; margin: 2px 0 16px 20px; }
+img.across { margin: 2px 0 16px 0; }
+img.flushleft { margin-left: -20px; }
+img.flushright { margin-right: -20px; }
+
+body { font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; background-color: transparent; color: #333; -webkit-font-smoothing: antialiased; }
+
+a { color: #08c; }
+
+strong, b { font-weight: bold; }
+em, i, cite { font-style: italic; }
+sup { padding-left: 1px; font-size: 10px !important; font-weight: normal !important; line-height:1.5; vertical-align: baseline; position: relative; bottom: 0.33em; _position: static !important; }
+sup, sup a { color:#666; }
+sup a:hover { color:#08c; text-decoration:none; }
+sub { line-height:1; }
+abbr { border: 0; }
+
+h1,h2,h3,h4,h5,h6,strong { color:#000; }
+h1,h2,h3,h4 { font-weight: bold; }
+h2,h3,h4 { line-height: 18px; }
+h1,h2 { margin-bottom: 18px; }
+h1 { font-size: 24px; line-height: 36px; }
+h2 { font-size: 16px; }
+h3 { font-size: 1em; }
+h4 { font-size: 10px; }
+p { margin-bottom: 18px; }
+
+ul { list-style: none outside; }
+ol { margin-bottom: 18px; list-style: decimal; margin-left: 2.2em; }
+ul.square,
+ul.circle,
+ul.disc { margin-left: 2em; margin-bottom: 18px; }
+ul.square { list-style: square outside; }
+ul.circle { list-style: circle outside; }
+ul.disc { list-style:disc outside; }
+ul ul.square,
+ul ul.circle,
+ul ul.disc { margin-top: 4px; margin-bottom: 5px; }
+ol.sosumi { margin-left: 0; padding-left: 2em; *padding-left: 2.2em; }
+
+a.pdf { background: url(https://web.archive.org/web/20140301004301im_/http://images.apple.com/global/elements/icons/globaliconpdf12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.html { background: url(https://web.archive.org/web/20140301004301im_/http://images.apple.com/global/elements/icons/globaliconhtml12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.qt { background: url(https://web.archive.org/web/20140301004301im_/http://images.apple.com/global/elements/icons/globaliconqt12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.ical { background: url(https://web.archive.org/web/20140301004301im_/http://images.apple.com/global/elements/icons/globaliconical12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.dl { background: url(https://web.archive.org/web/20140301004301im_/http://images.apple.com/global/elements/icons/globalicondl11x10.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.dmg { background: url(https://web.archive.org/web/20140301004301im_/http://images.apple.com/global/elements/icons/globalicondmg12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.zip { background: url(https://web.archive.org/web/20140301004301im_/http://images.apple.com/global/elements/icons/globaliconzip12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.keynote { background: url(https://web.archive.org/web/20140301004301im_/http://images.apple.com/global/elements/icons/globaliconkeynote12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+a.audio { background: url(https://web.archive.org/web/20140301004301im_/http://images.apple.com/global/elements/icons/globaliconaudio12x12.gif) 0 0.4em no-repeat; display: block; padding-left: 20px; }
+
+.piped { display: block; zoom: 1; }
+.piped:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.piped li { float: left; display: inline; }
+.piped a { border-left: 1px solid #797c80; padding: 0 0 0 0.75em; margin-left: 0.75em; }
+.piped a.first { border-left: 0 !important; padding-left: 0; margin-left: 0 !important; }
+
+body h1 a,
+body h2 a { cursor: default; }
+
+ul { display: inline; float: right; margin: 0; }
+li { display: inline; }
+ul li a { color: #333; float: left !important; margin-top: 1em; margin-left: 30px; margin-right: 8px; padding: 0; text-decoration: none; }
+ul li a:hover { color: #08c; }
+
+li.promo { position:relative; float:left; width:244px; min-height:15em; _height:15em; padding-right:1px; margin-top:-16px; }
+li.promo a { color:#777; }
+li.promo:hover a { color:#08c; text-decoration:none; }
+
+img { display:block; }
+
+h4 a,
+p a,
+ul { display:block; padding-left:15px; padding-right:12px; text-align:left; z-index:101; *position:relative; }
+
+h4 a { font-size:18px; font-weight:normal; padding-top:15px; }
+p { margin-bottom:0; }
+p a { font-size:11px; line-height:16px; }
+a.image { height:180px; position:absolute; bottom:0; z-index:100; }
+
+.promo.left p a { width:110px; }
+.promo.right p a { width:112px; padding-left:116px; }
+.promo.center p a { text-align:center; }
+
+li.buy { position:relative; float:left; width:244px; padding-right:1px; margin-top:-17px; color:#777; }
+li.buy ul { font-size:11px; line-height:1.4; }
+
+html, body { position:relative; z-index:1; min-width:1024px; height:100%; background:#fff; }
+body { min-height:830px; *height:830px; max-height:1472px; }
+
+#globalheader { top:18px; margin:0 auto; }
+
+.full { position:absolute; top:0; right:0; bottom:0; left:0; color:transparent; font-size:0; line-height:0; *background:url(https://web.archive.org/web/20140301004301im_/http://images.apple.com/global/elements/blank.gif); }
+
+a { display:inline-block; margin:0 18px 25px; height:29px; }
+a:hover,
+a:active { margin-top:-32px; }
+a .medium { display:inline-block; }
+a .large { display:none; }
+
+.promos { position:absolute; z-index:1; bottom:90px; overflow:hidden; width:100%; height:200px; }
+.promos ul { position:relative; z-index:1; overflow:hidden; margin:0 auto; min-width:1024px; width:100%; max-width:1440px; height:200px; text-align:center; }
+.promos ul li { position:relative; z-index:1; float:left; overflow:hidden; margin:0; width:25%; height:200px; }
+.promos ul li + li + li + li { margin-right:-.3%; *margin-right:-.5%; width:25.3%; }
+.promos ul li a { position:absolute; z-index:1; top:0; right:0; bottom:0; left:0; display:block; overflow:hidden; cursor:pointer; }
+.promos ul li + li a { border-left:2px solid #fff; }
+.promos ul li a img { position:absolute; z-index:1; left:50%; margin-left:-182px; }
+.promos ul li a.left img { left:0; }
+.promos ul li a.right img { right:0; left:auto; }
+
+#homefooter { position:absolute; z-index:1; right:0; bottom:0; left:0; margin:0; min-width:980px; width:100%; height:90px; padding:0; color:#6e6e6e; font-size:.8334em; line-height:1.2; text-align:center; zoom:1; }
+#homefooter .wrapper { margin:0 auto; width:980px; padding:1em 0 2.6em; }
+#homefooter .wrapper:after { content:'.'; display:block; visibility:hidden; clear:both; height:0; }
+#homefooter .left { float:left; clear:both; width:49%; padding-top:1.5em; text-align:left; }
+#homefooter .right { float:right; width:51%; padding-top:1.5em; text-align:right; }
+#homefooter p,
+#homefooter ul,
+#homefooter ul li { display:inline; margin:0; }
+#homefooter .piped li { display:inline-block; *display:inline; float:none; margin-left:.6em; padding-left:.6em; border-left:1px solid #ccc; }
+#homefooter .piped li.first { margin-left:0; padding-left:0; border-left:none; }
+#homefooter .piped a { display:inline-block; margin:0; padding:0; border:none; }
+#homefooter .piped .worldwide { position:relative; z-index:1; width:16px; height:12px; zoom:1; }
+#homefooter .piped .worldwide img { position:absolute; z-index:1; top:-2px; left:7px; }
