@@ -63,7 +63,7 @@ body {
 #g-search .sp-label { margin-bottom:-2px; }
 #g-search .sp-label label { display:none; margin:0; }
 
-.globalheader-js #g-search { width:100px; height:16px; border:0 none; padding:2px 20px; color:#fff; background-image: linear-gradient(to top gray 50%, darkgray 50%); 0 0 no-repeat; }
+.globalheader-js #g-search { width:100px; height:16px; border:0 none; padding:2px 20px; color:#fff; background-image: linear-gradient(to top gray 50%, darkgray 50%); }
 .globalheader-js #sp-searchtext { padding:0; color:#fff; background:none; }
 .searchmode      #g-search { background-position:0 100%; }
 .searchmode      #sp-searchtext { color:#000; outline:none; }
