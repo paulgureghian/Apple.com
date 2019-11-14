@@ -19,7 +19,14 @@ body {
   margin-bottom: 2px;
 }
 
-html, body, div, ul, li, p, header, nav, section {
+body,  
+div,  
+ul,  
+li,
+p,
+header,
+nav,
+section {  
   margin: 0;
   padding: 0;
 }
