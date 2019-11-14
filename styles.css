@@ -19,6 +19,11 @@ body {
   margin-bottom: 2px;
 }
 
+html, body, div, ul, li, p, header, nav, section {
+  margin: 0;
+  padding: 0;
+}
+
 .main-nav {
   position: relative;
   top: 18px;
@@ -160,11 +165,6 @@ body {
   display: block;
   clear: both;
   height: 0;
-}
-
-html, body, div, ul, li, p, header, nav, section {
-  margin: 0;
-  padding: 0;
 }
 
 .left {
