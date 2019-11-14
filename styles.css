@@ -134,11 +134,27 @@ section {
   background-repeat: no-repeat;
 }
 
-#search {
+.search {
+  margin-top: 2px;
+  margin-bottom: 2px;    
+  margin-left: 16px; 
+  margin-right: 16px;
+  font-size: 17px;     
+  float: right; 
   flex: 1.5;
-  background-image: url(images/globalsearch_field.png);
-  background-repeat: no-repeat;
+  width: 100%;
+  height: 19px;
   background-position: center;
+  padding: 6px; 
+  color: #000;
+  text-shadow: rgba(0, 0, 0, 0) 0 1px 1px;
+  z-index: 0;
+  background-image: none; 
+  text-align: left;
+  border: none; 
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
 }
 
 .text {
