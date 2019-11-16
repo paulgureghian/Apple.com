@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  background-color: transparent;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.hero {
+  height: 538px;
+  position: relative;
+  background: url(images/your_verse_hero.jpg) 50% 100% no-repeat;
+  margin-bottom: 2px;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav {
+  position: relative;
+  top: 18px;
+  margin: 0 auto;
+  height: 36px;
+  width: 980px;
+  background: linear-gradient(dimgray 50%, gray 50%);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  font: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+  color: #fff;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  height: 36px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.main-nav li {
+  flex: 1;
+  height: 36px;
+  border-width: 0 1px 0 0;
+  border-radius: 4px 0 0 4px;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+}
+
+#apple {
+  background-image: url(images/globalnav_text.svg);
+  background-position: 50% 2px;
+  background-repeat: no-repeat;
+}
+
+#store {
+  background-image: url(images/globalnav_text.svg);
+  background-position: 50% -27px;
+  background-repeat: no-repeat;
+}
+
+#mac {
+  background-image: url(images/globalnav_text.svg);
+  background-position: 50% -57px;
+  background-repeat: no-repeat;
+}
+
+#ipod {
+  background-image: url(images/globalnav_text.svg);
+  background-position: 50% -87px;
+  background-repeat: no-repeat;
+}
+
+#iphone {
+  background-image: url(images/globalnav_text.svg);
+  background-position: 50% -117px;
+  background-repeat: no-repeat;
+}
+
+#ipad {
+  background-image: url(images/globalnav_text.svg);
+  background-position: 50% -147px;
+  background-repeat: no-repeat;
+}
+
+#itunes {
+  background-image: url(images/globalnav_text.svg);
+  background-position: 50% -177px;
+  background-repeat: no-repeat;
+}
+
+#support {
+  background-image: url(images/globalnav_text.svg);
+  background-position: 50% -207px;
+  background-repeat: no-repeat;
+}
+
+.search {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 17px;
+  float: right;
+  flex: 1.5;
+  width: 100%;
+  height: 19px;
+  background-position: center;
+  padding: 6px;
+  color: #000;
+  text-shadow: rgba(0, 0, 0, 0) 0 1px 1px;
+  z-index: 0;
+  background-image: none;
+  text-align: left;
+  border: none;
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+
+.text {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.down {
+  display: flex;
+}
+
+.down-elem {
+  flex: 1;
+  cursor: pointer;
+}
+
+.down-elem img {
+  width: 100%;
+}
+
+.down-elem + .down-elem {
+  margin-left: 2px;
+}
+
+#homefooter {
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  min-width: 980px;
+  width: 100%;
+  height: 90px;
+  padding: 0;
+  color: #6e6e6e;
+  font-size: 0.8234em;
+  line-height: 1.2;
+  text-align: center;
+  zoom: 1;
+  margin-top: 3px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 980px;
+  padding: 1em 0 2.6em;
+}
+
+.wrapper::after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+.left {
+  float: left;
+  clear: both;
+  width: 49%;
+  padding-top: 6px;
+  text-align: left;
+}
+
+#homefooter p {
+  display: inline;
+  margin: 0;
+}
+
+#homefooter ul {
+  display: inline;
+  margin: 0;
+}
+
+#homefooter ul li {
+  display: inline;
+  margin: 0;
+}
+
+a {
+  color: #08c;
+  text-decoration: none;
+}
+
+a::before {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.clear {
+  clear: both;
+  margin-top: 8px;
+}
+
+#homefooter .piped li {
+  display: inline-block;
+  *display: inline;
+  float: none;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: 1px solid #ccc;
+}
+
+h2 {
+  display: none;
+}
