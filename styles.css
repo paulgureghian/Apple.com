@@ -135,6 +135,7 @@ section {
 }
 
 .search {
+  outline: none;
   margin: 0 15px 0 15px;  
   font-size: 17px;
   float: right;
