@@ -283,3 +283,7 @@ h2 {
   cursor: pointer;
   text-decoration: underline;
 }
+
+.main-nav ul li a:hover {
+  background-color: black;
+}
